@@ -28,6 +28,7 @@ class WebDriverHelper:
             Ec.visibility_of_element_located(locator)
         )
         self.driver.execute_script("arguments[0].scrollIntoView(true);",element)
+        
     
 
 
