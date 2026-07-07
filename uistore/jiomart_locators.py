@@ -8,5 +8,4 @@ class JioMartLocators:
     search_bar = (By.XPATH,"//input[@class='SearchInput__searchInput SearchSection__searchInput']") 
     first_prod = (By.XPATH,"//div[@class='productContainer']//h3[@class='productCard__productTitle']")
     about_us = (By.XPATH,"//label[text()='About Us']")
-    all_prices = (By.CLASS_NAME,"PriceContainer__currentPrice") 
-    
+    all_prices = (By.CLASS_NAME,"PriceContainer__currentPrice")
